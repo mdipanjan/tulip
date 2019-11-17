@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaHome } from "react-icons/fa";
+import { FaStethoscope } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
-import { MdMenu } from "react-icons/md";
+import { GiTestTubes } from "react-icons/gi";
+import  { AiOutlineSafety ,AiOutlineMedicineBox } from "react-icons/ai";
+
 import {
     BrowserRouter as Router,
     Route,
@@ -18,58 +19,60 @@ import './MobileNav.css';
  class MobileNav extends Component {
     render() {
         return (
-            <div className="main-nav">
-                <ul className="nav">
-                    <li className="nav-item">
+            // <div className="">
+                <ul className="main-nav">
+                    <li className="">
                         <NavLink  
-                        to="/home" 
-                        activeStyle={{
-                            fontWeight: "bold",
-                            color: "blue"
-                        }} 
-                        className="nav-link" 
-                        >
-                            <FaHome className="icons"/>
+                            to="/home" 
+                            className="nav-link" 
+                            >
+                            <span className="nav-icon ml-3">
+                                <FaStethoscope className="icons"/>
+                            </span>
+                            <span className="nav-text">
+                                Consultation
+                            </span>
+                            
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink 
-                        to="/protected"
-                        activeStyle={{
-                            fontWeight: "bold",
-                            color: "blue"
-                        }} 
+                        to="/"
                         className="nav-link" 
-                        >
-                            <FaSearch className="icons"/>
+                        >   <span className="nav-icon ml-1">
+                                <GiTestTubes className="test ml-2"/>
+                            </span>
+                            <span className="nav-text">
+                                Diagnosis
+                            </span>
                         </NavLink >
                     </li>
                     <li className="nav-item">
                         <NavLink  
                         to="/profile"
-                        activeStyle={{
-                            fontWeight: "bold",
-                            color: "blue"
-                        }} 
                         className="nav-link"
-                        >
-                            <FaUser className="icons"/>
+                        >   <span className="nav-icon ml-2">
+                                <AiOutlineMedicineBox className="icons medicine"/>
+                            </span>
+                            <span className="nav-text">
+                                Medicine
+                            </span>
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink 
                         to="/menu" 
-                        activeStyle={{
-                            fontWeight: "bold",
-                            color: "blue"
-                        }} 
                         className="nav-link"  tabIndex="-1" 
-                        >
-                            <MdMenu/>
+                        >   <span className="nav-icon ml-3">
+                                <AiOutlineSafety className="icons safety"/>
+                            </span>
+                            <span className="nav-text">
+                                Consultation
+                            </span>
                         </NavLink>
                     </li>
                 </ul>
-            </div>
+            // </div>
         )
     }
 }

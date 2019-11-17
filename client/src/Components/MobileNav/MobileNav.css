@@ -1,6 +1,23 @@
-.main-nav{
-    background-color: rgb(182, 218, 99);
+ul.main-nav{
+    background-color: rgb(235, 235, 235);
     position: fixed;
     width: 100vw;
-    top: 92%;
+    top: 90%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+.safety{
+    font-size: 20px;
+}
+.medicine{
+    font-size: 20px;
+}
+.test{
+    font-size: 18px;
+}
+.nav-text{
+    display: block;
+    font-size: 10px;
 }

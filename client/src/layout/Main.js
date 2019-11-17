@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route, Link, Redirect,withRouter,Switch } from
 import Homepage from '../views/Homepage/Homepage';
 import routes from '../routes/routes';
 import Other from '../views/Other/Other';
+import TopNav from '../Components/TopNav/TopNav';
 
 class Main extends Component {
     getRoutes = routes => {
         return routes.map((prop, key) => {
-        //   if (prop.layout === "/admin") {
             return (
               <Route
                 path={prop.path}
@@ -16,15 +16,13 @@ class Main extends Component {
                 key={key}
               />
             );
-        //   } else {
-        //     return null;
-        //   }
         });
     };
     render() {
         return (
             <div>
                 <Router>
+                    <TopNav/>
                     <MobileNav/>
                     <Switch>{this.getRoutes(routes)}</Switch>
                 </Router>

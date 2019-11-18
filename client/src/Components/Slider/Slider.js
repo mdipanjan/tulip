@@ -9,7 +9,7 @@ export default class Responsive extends Component {
         speed: 500,
         arrows:false,
         swipe:true,
-  
+        lazyLoad:true,
         slidesToShow: 4,
         slidesToScroll: 3,
         initialSlide: 0,
@@ -43,46 +43,50 @@ export default class Responsive extends Component {
       return (
         <div className="">
           <Slider {...settings}>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  1
+            <div className="r_slider-box mr-3">
+              <div class="card mr-2">
+                <div className="img-wrap">
+                  <img src="https://image.shutterstock.com/image-photo/asian-woman-patients-seeking-advice-260nw-1328241761.jpg" class="card-img-top" alt="..."/>
+                </div>
+                <div class="my-2 ml-2">
+                  <p class="card-text">General physician</p>
+                </div>
               </div>
             </div>
             <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  2
+              <div class="card mr-2">
+                <div className="img-wrap">
+                  <img src="https://image.freepik.com/free-photo/doctor-holding-stethoscope-with-copy-space_23-2148285701.jpg" class="card-img-top" alt="..."/>
+                </div>
+                <div class="my-2 ml-2">
+                  <p class="card-text">Phsiotherapist</p>
+                </div>
+              </div>
+            </div>
+            <div className="r_slider-box mr-3">
+            <div class="card mr-2">
+              <div className="img-wrap">
+              <img src="https://www.alexbelldental.com/wp-content/uploads/2017/11/holistic-dentist-dayton-ohio-300x257.jpg" class="card-img-top" alt="..."/>
+              </div>
+              <div class="my-2 ml-2">
+                <p class="card-text">Dentist</p>
+              </div>
               </div>
             </div>
             <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  3
+              <div class="card mr-2">
+                <div className="img-wrap">
+                  <img src="https://media.istockphoto.com/photos/handsome-doctor-in-the-hospital-at-night-picture-id524714646?k=6&m=524714646&s=612x612&w=0&h=GzjpICls599GTuSqhYce8WQDXAU6NOST_Sdk41N6exk=" class="card-img-top" alt="..."/>
+                </div>
+                <div class="my-2 ml-2">
+                  <p class="card-text">Orthopedic</p>
+                </div>
               </div>
             </div>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  4
-              </div>
-            </div>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  5
-              </div>
-            </div>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  6
-              </div>
-            </div>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  7
-              </div>
-            </div>
-            <div className="r_slider-box mr-2">
-              <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                  8
-              </div>
-            </div>
+            
+           
+           
+            
           </Slider>
         </div>
       );

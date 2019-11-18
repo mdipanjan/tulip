@@ -1,9 +1,15 @@
-.r_slider-box{
+
+.img-wrap{
     height: 100px;
 }
-.chat-box{
-    height: 60px;
-    background-color: indianred;
+img{
+    height: 100%;
+}
+.medication-box{
+    height: 150px;
+    background-color: #fff;
+    /* background: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/160893/160893_00_2x.jpg");
+    background-size: contain; */
 }
 .test-slider{
     /* background-color: lawngreen; */
@@ -12,7 +18,7 @@
 .view-all{
     position: relative;
 }
-.view-doctors,.view-tests,.view-featured{
+.view-doctors,.view-tests,.view-featured,.view-consult{
     position: absolute;
     left: 80%;
     font-size: 14px;
@@ -24,4 +30,12 @@
     position: absolute;
     left: 92%;
     top:10px;
+}
+.consult-label, .medication-label, .test-label,.featured-label{
+    font-weight: 500;
+}
+
+.medicine-subs-text{
+    /* background-color: white; */
+    font-size: 10px;
 }

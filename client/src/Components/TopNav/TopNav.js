@@ -11,6 +11,7 @@ import {
   MdHelp,
   MdInfo
 } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 import { FaStore } from "react-icons/fa";
 import { GoShield } from "react-icons/go";
 import { GiDrop } from "react-icons/gi";
@@ -41,68 +42,87 @@ class TopNav extends Component {
           </div>
 
           <ul className="menu-options">
-            <li className="">
-              <span>
-                <MdAssignmentTurnedIn className="link-icon" />
-              </span>
-              <span className="link-text ml-2">My Appointments</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <MdAssignmentTurnedIn className="link-icon" />
+                </span>
+                <span className="link-text ml-2">My appointments</span>
+              </NavLink>
             </li>
-            <li>
-              <span>
-                <MdAssignment className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Lab Tests</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/ome">
+                <span>
+                  <MdAssignment className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Lab tests</span>
+              </NavLink>
             </li>
-            <li>
-              <span>
-                <MdShoppingCart className="link-icon" />
-              </span>
-              <span className="link-text ml-2">My Orders</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <MdShoppingCart className="link-icon" />
+                </span>
+                <span className="link-text ml-2">My orders</span>
+              </NavLink>
             </li>
-            <li>
-              <span>
-                <GoShield className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Insurance Plus</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <GoShield className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Insurance plus</span>
+              </NavLink>
             </li>
-            <li>
-              <span>
-                <MdLock className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Health Record Vault</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <MdLock className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Health record vault</span>
+              </NavLink>
             </li>
 
-            <li>
-              <span>
-                <GiDrop className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Blood Finder</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <GiDrop className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Blood finder</span>
+              </NavLink>
             </li>
-            <li>
-            <span>
-                <FaStore className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Jan AsudhiFinder</span>
-            
-                
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <FaStore className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Jan asudhi finder</span>
+              </NavLink>
             </li>
             <hr />
-            <li>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
                 <span>
-                    <MdHelp/>
+                  <MdHelp />
                 </span>
                 <span className="link-text ml-2">Help</span>
+              </NavLink>
             </li>
-            <li>
-              <span>
-                <MdSettings className="link-icon" />
-              </span>
-              <span className="link-text ml-2">Settings</span>
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <MdSettings className="link-icon" />
+                </span>
+                <span className="link-text ml-2">Settings</span>
+              </NavLink>
             </li>
-            <li>
-                <span> <MdInfo/></span>
-                <span className="link-text ml-2">About Us</span>
-                
+            <li className="my-2 pl-2">
+              <NavLink className="link" to="/home">
+                <span>
+                  <MdInfo />
+                </span>
+                <span className="link-text ml-2">About us</span>
+              </NavLink>
             </li>
           </ul>
         </div>

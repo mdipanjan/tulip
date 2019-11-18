@@ -7,6 +7,7 @@ ul.main-nav{
     justify-content: space-around;
     list-style-type: none;
     padding-left: 0px !important;
+    z-index: 999;
 }
 .safety{
     font-size: 20px;

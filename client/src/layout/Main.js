@@ -22,8 +22,8 @@ class Main extends Component {
         return (
             <div>
                 <Router>
-                    <TopNav/>
                     <MobileNav/>
+                    <TopNav/>
                     <Switch>{this.getRoutes(routes)}</Switch>
                 </Router>
                

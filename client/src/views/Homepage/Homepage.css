@@ -1,0 +1,27 @@
+.r_slider-box{
+    height: 100px;
+}
+.chat-box{
+    height: 60px;
+    background-color: indianred;
+}
+.test-slider{
+    /* background-color: lawngreen; */
+    height: 70px;
+}
+.view-all{
+    position: relative;
+}
+.view-doctors,.view-tests,.view-featured{
+    position: absolute;
+    left: 80%;
+    font-size: 14px;
+}
+.search-box {
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    left: 92%;
+    top:10px;
+}

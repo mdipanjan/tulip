@@ -3,13 +3,11 @@
     height: 100px;
 }
 img{
-    height: 100%;
+    height: 100px;
+    width: 100%;
 }
 .medication-box{
-    height: 150px;
-    background-color: #fff;
-    /* background: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/160893/160893_00_2x.jpg");
-    background-size: contain; */
+    background-color: #a7cc58;
 }
 .test-slider{
     /* background-color: lawngreen; */
@@ -18,7 +16,7 @@ img{
 .view-all{
     position: relative;
 }
-.view-doctors,.view-tests,.view-featured,.view-consult{
+.view-doctors,.view-tests,.view-featured,.view-consult,.view-insurance{
     position: absolute;
     left: 80%;
     font-size: 14px;
@@ -28,14 +26,26 @@ img{
 }
 .search-icon{
     position: absolute;
-    left: 92%;
+    left: 90%;
     top:10px;
 }
-.consult-label, .medication-label, .test-label,.featured-label{
+.consult-label, .medication-label, .test-label,.featured-label,.insurance-label{
     font-weight: 500;
 }
-
+.test-text{
+    font-weight: 500;
+}
+.med-img{
+    height: 80px;
+}
 .medicine-subs-text{
     /* background-color: white; */
-    font-size: 10px;
+    font-size: 14px;
+}
+.med-img{
+    /* position: absolute;
+    top: 10%;
+    left: 50%; */
+    background: url('http://www.pngall.com/wp-content/uploads/2/Medicine-Pills-PNG-Photos.png');
+    background-size: cover;
 }

@@ -1,13 +1,13 @@
 ul.main-nav{
     background-color: rgb(235, 235, 235);
-    position: fixed;
+    position: fixed !important;
     width: 100vw;
-    top: 90%;
+    top: 92%;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     padding-left: 0px !important;
-    z-index: 999;
+    z-index: 99999;
 }
 .safety{
     font-size: 20px;

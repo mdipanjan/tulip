@@ -2,8 +2,10 @@
   "name": "tulip",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mdipanjan.github.io/tulip",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -13,6 +15,7 @@
     "react-slick": "^0.25.2"
   },
   "scripts": {
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

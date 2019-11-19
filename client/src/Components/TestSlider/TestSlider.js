@@ -7,8 +7,8 @@ export default class Responsive extends Component {
       dots: false,
       infinite: false,
       speed: 500,
-      arrows:false,
-      swipe:true,
+      arrows: false,
+      swipe: true,
 
       slidesToShow: 4,
       slidesToScroll: 3,
@@ -43,47 +43,30 @@ export default class Responsive extends Component {
     return (
       <div className="">
         <Slider {...settings}>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                1
+          <div className="insurance-slider mr-2">
+              <div className="card p-3 mr-2  h-100 rounded-0">
+                <div>
+                  <img src="http://news.emory.edu/stories/2019/07/earlier_diabetes_diagnosis/thumbs/GettyImages-514347547.jpg"/>
+                </div>
+                <p className="mt-2 test-text">Thyrod test</p>
+              </div>
             </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                2
+            <div className="insurance-slider mr-2">
+              <div className="card p-3 mr-2 h-100 rounded-0">
+                <div>
+                  <img src="https://www.healtheuropa.eu/wp-content/uploads/2019/10/iStock-977304138-696x392.jpg"/>
+                </div>
+                <p className="mt-2 test-text">Hepataitis B test</p>
+              </div>
             </div>
- 
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                3
+            <div className="insurance-slider mr-2">
+              <div className="card p-3 mr-2 h-100 rounded-0">
+                  <div>
+                    <img src="https://article.images.consumerreports.org/f_auto/prod/content/dam/cro/news_articles/health/CRO_Health_Pricked_Finger_BGM_02-15"/>
+                  </div>
+                  <p className="mt-2 test-text">Dieabetes test</p>
+              </div>
             </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                4
-            </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                5
-            </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                6
-            </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                7
-            </div>
-          </div>
-          <div className="test-slider mr-2">
-            <div className="card p-3 mr-2 bg-primary h-100 rounded-0">
-                8
-            </div>
-          </div>
         </Slider>
       </div>
     );

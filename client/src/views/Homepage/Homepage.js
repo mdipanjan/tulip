@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "../../Components/Slider/Slider";
 import TestSlider from "../../Components/TestSlider/TestSlider";
 import Featured from "../../Components/FeaturedProducts/FeaturedProducts";
+import InsuranceSlider from "../../Components/Insurances/InsurranceSlider";
 import "./Homepage.css";
 import { Link } from "react-router-dom";
 import { GoSearch } from "react-icons/go";
@@ -29,27 +30,41 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div className="mb-2 ">
+        <div className="mb-2 medicine-box">
           <label className="medication-label">Subscribe your medication </label>
           <div className="mx-3 ">
             <div className="row">
-              <div className="col-12 col-sm-6 medication-box">
-                
-                    <div className="">
-                        <p className="medicine-subs-text">
-                        Are you suffering from chronic illness?
-                        <span>Do you forgot to take your mediactions?</span>
-                        <span>Do you need to buy your medicines every month?</span>
-                        </p>
-                    </div>
-              
-                
- 
+              <div className="">
+                <div class="col-12 col-sm-12 card text-white  mb-3  medication-box">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Subscribe and get Recurring medicines
+                    </h5>
+                    <p class="card-text">
+                      <span>Do you forgot to take your mediactions?</span>
+                      <span>
+                        Do you need to buy your medicines every month?
+                      </span>
+                      <div className="med-img">
+                      </div>
+                    </p>
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div className="view-all mt-2">
             <Link className="view-doctors" to="/">
+              View All
+            </Link>
+          </div>
+        </div>
+        <div className="insurance-box mt-4 ">
+          <label className="insurance-label">Featured Health Insurances</label>
+          <InsuranceSlider />
+          <div className="view-all mt-2 ">
+            <Link className="view-insurance" to="/">
               View All
             </Link>
           </div>
@@ -63,10 +78,11 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div className="featured-box mt-4">
+        {/* <hr className="mt-3 mb-3"/> */}
+        <div className="featured-box mt-4 pb-5">
           <label className="featured-label">Featured Products</label>
           <Featured />
-          <div className="view-all mt-2 pb-5">
+          <div className="view-all mt-2">
             <Link className="view-featured" to="/">
               View All
             </Link>

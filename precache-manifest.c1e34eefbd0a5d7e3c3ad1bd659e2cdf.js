@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f90c2393b8f445cae922ac988f33b41e",
+    "revision": "3891cf50f9d4b11e9315898c8c9d3b77",
     "url": "/tulip/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tulip/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "4263babaa7ab7e865a44",
+    "revision": "119a0213bf42d475d410",
     "url": "/tulip/static/css/main.3814673e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tulip/static/js/2.a3c6f4de.chunk.js"
   },
   {
-    "revision": "4263babaa7ab7e865a44",
-    "url": "/tulip/static/js/main.7739ae88.chunk.js"
+    "revision": "119a0213bf42d475d410",
+    "url": "/tulip/static/js/main.adae7a1b.chunk.js"
   },
   {
     "revision": "4ce0db1fed3be457497f",

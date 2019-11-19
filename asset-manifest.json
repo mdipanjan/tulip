@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tulip/static/css/main.3840cf03.chunk.css",
-    "main.js": "/tulip/static/js/main.558452e2.chunk.js",
-    "main.js.map": "/tulip/static/js/main.558452e2.chunk.js.map",
+    "main.css": "/tulip/static/css/main.bbf5fe5f.chunk.css",
+    "main.js": "/tulip/static/js/main.a08995e4.chunk.js",
+    "main.js.map": "/tulip/static/js/main.a08995e4.chunk.js.map",
     "runtime-main.js": "/tulip/static/js/runtime-main.dfd8f139.js",
     "runtime-main.js.map": "/tulip/static/js/runtime-main.dfd8f139.js.map",
     "static/css/2.833dd627.chunk.css": "/tulip/static/css/2.833dd627.chunk.css",
     "static/js/2.a3c6f4de.chunk.js": "/tulip/static/js/2.a3c6f4de.chunk.js",
     "static/js/2.a3c6f4de.chunk.js.map": "/tulip/static/js/2.a3c6f4de.chunk.js.map",
     "index.html": "/tulip/index.html",
-    "precache-manifest.b271d7baaaf30e46a4ce9bb3ca5676a4.js": "/tulip/precache-manifest.b271d7baaaf30e46a4ce9bb3ca5676a4.js",
+    "precache-manifest.5f6806c2e0ada28e9fe299f9099814c7.js": "/tulip/precache-manifest.5f6806c2e0ada28e9fe299f9099814c7.js",
     "service-worker.js": "/tulip/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/tulip/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.3840cf03.chunk.css.map": "/tulip/static/css/main.3840cf03.chunk.css.map"
+    "static/css/main.bbf5fe5f.chunk.css.map": "/tulip/static/css/main.bbf5fe5f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.dfd8f139.js",
     "static/css/2.833dd627.chunk.css",
     "static/js/2.a3c6f4de.chunk.js",
-    "static/css/main.3840cf03.chunk.css",
-    "static/js/main.558452e2.chunk.js"
+    "static/css/main.bbf5fe5f.chunk.css",
+    "static/js/main.a08995e4.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tulip/static/css/main.070bdbb2.chunk.css",
+    "main.css": "/tulip/static/css/main.3814673e.chunk.css",
     "main.js": "/tulip/static/js/main.ca0e66b3.chunk.js",
     "main.js.map": "/tulip/static/js/main.ca0e66b3.chunk.js.map",
     "runtime-main.js": "/tulip/static/js/runtime-main.dfd8f139.js",
@@ -9,16 +9,16 @@
     "static/js/2.a3c6f4de.chunk.js": "/tulip/static/js/2.a3c6f4de.chunk.js",
     "static/js/2.a3c6f4de.chunk.js.map": "/tulip/static/js/2.a3c6f4de.chunk.js.map",
     "index.html": "/tulip/index.html",
-    "precache-manifest.c95c63cb8df6b205645105ca214306dc.js": "/tulip/precache-manifest.c95c63cb8df6b205645105ca214306dc.js",
+    "precache-manifest.794335fcd83b497aa3bab877e3b33d13.js": "/tulip/precache-manifest.794335fcd83b497aa3bab877e3b33d13.js",
     "service-worker.js": "/tulip/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/tulip/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.070bdbb2.chunk.css.map": "/tulip/static/css/main.070bdbb2.chunk.css.map"
+    "static/css/main.3814673e.chunk.css.map": "/tulip/static/css/main.3814673e.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.dfd8f139.js",
     "static/css/2.833dd627.chunk.css",
     "static/js/2.a3c6f4de.chunk.js",
-    "static/css/main.070bdbb2.chunk.css",
+    "static/css/main.3814673e.chunk.css",
     "static/js/main.ca0e66b3.chunk.js"
   ]
 }

@@ -1,0 +1,23 @@
+.health-records{
+    position: relative;
+    margin-top: 200px;
+}
+.record-box {
+    height: 95Vh;
+    width: 90Vw;
+}
+.no-records{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.record-add-btn{
+    display: block;
+    width: 80vw;
+    position: absolute;
+    top: 90%;
+    font-size: 16px;
+    background-color: rgb(169, 238, 180);
+    border: none;
+}

@@ -45,8 +45,8 @@ export default class Homepage extends Component {
                       <span>
                         Do you need to buy your medicines every month?
                       </span>
-                      <div className="med-img">
-                      </div>
+                      <span className="med-img">
+                      </span>
                     </p>
 
                   </div>

@@ -72,7 +72,7 @@ class TopNav extends Component {
               </NavLink>
             </li>
             <li className="my-3 pl-2">
-              <NavLink className="link" to="/home">
+              <NavLink className="link" to="/health-insurances">
                 <span>
                   <GoShield className="link-icon mb-1" />
                 </span>
@@ -97,7 +97,7 @@ class TopNav extends Component {
               </NavLink>
             </li>
             <li className="my-3 pl-2">
-              <NavLink className="link" to="/home">
+              <NavLink className="link" to="/book-medicines">
                 <span>
                   <FaStore className="link-icon mb-1" />
                 </span>

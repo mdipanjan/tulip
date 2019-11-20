@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tulip/precache-manifest.4bc617aea282a084c0604a4e9eb32438.js"
+  "/tulip/precache-manifest.537fb7d1a493aed65cac63405f4560a7.js"
 );
 
 self.addEventListener('message', (event) => {

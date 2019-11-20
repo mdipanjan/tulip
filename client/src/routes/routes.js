@@ -6,22 +6,18 @@ const routes = [
     {
         path: "/home",
         component: Homepage,
-        //layout: "/admin"
     },
     {
         path: "/other",
         component: Other,
-        //layout: "/admin"
     },
     {
         path: "/blood-finder",
         component: BloodFinder,
-        
     },
     {
         path: "/health-records",
         component: HealthRecords,
-        
     }
 ]
 

@@ -80,7 +80,7 @@ class TopNav extends Component {
               </NavLink>
             </li>
             <li className="my-3 pl-2">
-              <NavLink className="link" to="/health-record">
+              <NavLink className="link" to="/health-records">
                 <span>
                   <MdLock className="link-icon mb-1" />
                 </span>

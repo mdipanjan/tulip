@@ -1,6 +1,12 @@
+
+html {
+  font-size: 62.5%; }
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
   background-color: rgba(245, 245, 245, 0.932);
+  /* font-weight: 400; */
+  letter-spacing: .1rem;
 }

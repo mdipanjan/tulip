@@ -14,13 +14,14 @@ export default class Homepage extends Component {
         <div class="search-box input-group flex-nowrap mb-4 mt-3 px-1">
           <input
             type="text"
-            class="form-control"
+            class="form-control search-input"
             placeholder="Search"
             aria-label=""
             aria-describedby=""
           />
           <GoSearch className="search-icon" />
         </div>
+        
         <div className="consultation-box mb-3">
           <label className="consult-label">Find doctors for consultation</label>
           <Slider />

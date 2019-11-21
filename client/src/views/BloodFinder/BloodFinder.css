@@ -1,0 +1,22 @@
+.map{
+    background-color: rosybrown;
+    height: 100vh;
+    width: 100vw;
+}
+.find-wrap{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.finder-btns{
+    width: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blood-finder-btn{
+    padding: 1rem 2rem;
+    width: 14rem;
+    border-radius: 1rem;
+    border: none;
+}

@@ -11,7 +11,7 @@ img{
 }
 .test-slider{
     /* background-color: lawngreen; */
-    height: 70px;
+    height: 7rem;
 }
 .view-all{
     position: relative;
@@ -23,11 +23,20 @@ img{
 }
 .search-box {
     position: relative;
+    margin-top: 4rem !important;
+    color: #b4b4be;
+}
+.search-input{
+    height: 3.4rem;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 hsla(0,0%,85.5%,.5);
+    border: 1px solid #dedede;
 }
 .search-icon{
     position: absolute;
-    left: 90%;
-    top:10px;
+    left: 93%;
+    top:1rem;
+    font-size: 1.5rem;
 }
 .consult-label, .medication-label, .test-label,.featured-label,.insurance-label{
     font-weight: 500;

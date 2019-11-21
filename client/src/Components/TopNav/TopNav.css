@@ -2,16 +2,16 @@ body.overlay{
     overflow: hidden;
 }
 .top-navigation{
-    height: 5rem;
+    height: 7rem;
     width: 100vw;
-    background-color: rgb(6, 6, 182);
+    background-color: rgb(16, 64, 153);
     position: fixed;
     z-index: 300 !important;
 }
 .menu-toggle{
     color: white;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .sidebar{
     position: absolute;
@@ -70,7 +70,7 @@ body.overlay{
     text-decoration: none !important;
 }
 .guest-icon{
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-top: -2.6rem;
 }
 .guest-label{

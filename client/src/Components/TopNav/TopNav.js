@@ -35,8 +35,8 @@ class TopNav extends Component {
   render() {
     return (
       <div className="top-navigation">
-        <span onClick={this.expandMenu} className="menu-toggle ml-3 mt-1">
-          <MdSubject className="toggle-icon" />
+        <span onClick={this.expandMenu} className="menu-toggle ml-3 mt-3">
+          <MdSubject className="toggle-icon mt-4" />
         </span>
         <div className="sidebar">
           <div className="profile-wrap">
@@ -47,7 +47,7 @@ class TopNav extends Component {
             </div>
             <div className="guest-box mt-4">
             <span className="float-left ">
-              <FaUserCircle className="guest-icon mr-5"/>
+              <FaUserCircle className="guest-icon mr-3"/>
             </span>
             <p className="guest-label">Hello guest!</p>
           </div>

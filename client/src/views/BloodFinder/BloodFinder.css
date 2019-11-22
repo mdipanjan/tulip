@@ -57,6 +57,16 @@
     display: flex;
     padding-top: 2rem;
 }
+.donor-contact{
+    /* background-color: yellow; */
+    width: 4rem;
+}
+.contact-icon{
+    font-size: 2rem;
+    color: #00508D;
+    /* margin-left: -2rem; */
+    margin-top: 1.5rem;
+}
 .donor-avtr{
     /* background-color: teal; */
     width: 20%;
@@ -105,4 +115,7 @@
     margin-left: 0.5rem;
     margin-top: 0.3rem;
     font-size: 1rem;
+}
+.donor-seperator{
+    margin-top: 2.5rem;
 }

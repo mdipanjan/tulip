@@ -23,7 +23,7 @@ export default class BloodFinder extends Component {
                     </div>
                     <div className="tab-content blood-infos pt-5 ">
                         <div className="tab-pane active" id="tabs-1" role="tabpanel">
-                            <div className="donor mb-3">
+                            <div className="donor mb-1">
                                 <div className="donor-avtr">
                                     <div className="donor-img">
                                         <img className="img-donor" src="https://www.dancerdates.net/m/photos/get_image/file/a366d08bd871ad9c3a55094eff6ea252.jpg"/>
@@ -37,8 +37,12 @@ export default class BloodFinder extends Component {
                                     <p className="donor-address">75 Parkstreet</p>
                                     <span className="donor-distance">3 miles</span>
                                 </div>
+                                <div className="donor-contact">
+                                    <MdPhone className="contact-icon"/>
+                                </div>
                             </div>
-                            <div className="donor mb-3">
+                            <hr className="donor-seperator"/>
+                            <div className="donor mb-1">
                                 <div className="donor-avtr">
                                     <div className="donor-img">
                                         <img className="img-donor" src="https://www.dancerdates.net/m/photos/get_image/file/a366d08bd871ad9c3a55094eff6ea252.jpg"/>
@@ -52,8 +56,12 @@ export default class BloodFinder extends Component {
                                     <p className="donor-address">167/ a garfa main road</p>
                                     <span className="donor-distance">3 miles</span>
                                 </div>
+                                <div className="donor-contact">
+                                    <MdPhone className="contact-icon"/>
+                                </div>
                             </div>
-                            <div className="donor mb-3">
+                            <hr className="donor-seperator"/>
+                            <div className="donor mb-1">
                                 <div className="donor-avtr">
                                     <div className="donor-img">
                                         <img className="img-donor" src="https://www.dancerdates.net/m/photos/get_image/file/a366d08bd871ad9c3a55094eff6ea252.jpg"/>
@@ -67,8 +75,12 @@ export default class BloodFinder extends Component {
                                     <p className="donor-address">1 Topsia main road</p>
                                     <span className="donor-distance">10 miles</span>
                                 </div>
+                                <div className="donor-contact">
+                                    <MdPhone className="contact-icon"/>
+                                </div>
                             </div>
-                            <div className="donor mb-3">
+                            <hr className="donor-seperator"/>
+                            <div className="donor mb-1">
                                 <div className="donor-avtr">
                                     <div className="donor-img">
                                         <img className="img-donor" src="https://www.dancerdates.net/m/photos/get_image/file/a366d08bd871ad9c3a55094eff6ea252.jpg"/>
@@ -81,6 +93,9 @@ export default class BloodFinder extends Component {
                                     <p className="donor-title pt-1">Mr.Dipanjan Mondal</p>
                                     <p className="donor-address">1 Topsia main road</p>
                                     <span className="donor-distance">10 miles</span>
+                                </div>
+                                <div className="donor-contact">
+                                    <MdPhone className="contact-icon"/>
                                 </div>
                             </div>
                         </div>

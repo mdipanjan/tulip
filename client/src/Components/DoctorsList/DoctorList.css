@@ -1,7 +1,7 @@
 
 .ourservices{padding: 15px 0px 0px 0px; margin-top:5rem;}
 .ourservices h3{color: #000000; opacity: 0.3; margin: 0px 0px 8px 0px; font-size: 13px; font-weight: 700;}
-.ourservices .oservicesbox{float: left; width: 100%; position: relative; padding: 20px; background: #fff; -webkit-border-radius: 8px; border-radius: 8px; position: relative; margin: 0px 0px 15px 0px;}
+.ourservices .oservicesbox{float: left; width: 100%; position: relative; padding: 20px; background: #fff; -webkit-border-radius: 8px; border-radius: 8px; position: relative; margin: 0px 0px 15px 0px; box-shadow: 0 2px 4px 0 hsla(0,0%,85.5%,.5);}
 .ourservices .oservicesbox .oservicesboxinner{position: relative; display: block; max-width: 220px; z-index: 1;}
 .ourservices .oservicesbox h4{color: #000000; font-size: 16px; font-weight: 600; text-align: left; margin: 0px 0px 5px 0px;}
 .ourservices .oservicesbox p{font-size: 10px; color: #3A3A3A; font-weight: 500;}

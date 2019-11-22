@@ -44,13 +44,12 @@ export default class Homepage extends Component {
                   <div class="oservicesboxinner">
                     <h4>Subscription based pharmacy</h4>
                     <p>
-                      Chat with doctors Chat with doctors Chat with doctors Chat
-                      with doctors Chat with doctors Chat with doctors
+                      Now buying medicine is as easy as texting someone in whatsapp, you can subscribe one time get benefits recurringly
                     </p>
-                    <a class="bookbtn">Book</a>
+                    <a class="bookbtn">See How</a>
                   </div>
-                  <div>
-                  <img src="images/medicine.png" alt="Humberto Chavez" />
+                  <div className="medicine-img">
+                    <img src="images/medicine.png" alt="Humberto Chavez" />
                   </div>
                 </div>
               </div>
@@ -61,7 +60,7 @@ export default class Homepage extends Component {
           <label className="consult-label">Find doctors for consultation</label>
           <Slider />
           <div className="view-all mt-2 pb-2">
-            <Link className="view-consult" to="/">
+            <Link className="view-consult" to="/doctors">
               View All
             </Link>
           </div>

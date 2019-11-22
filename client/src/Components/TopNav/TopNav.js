@@ -47,9 +47,11 @@ class TopNav extends Component {
           </span>
           <span className="location-text">Kolkata</span>
         </div>
-        <div className="cart-icon-box">
-          <FaCartPlus className="cart-icon"/>
-        </div>
+        <NavLink to="/cart">
+          <div className="cart-icon-box">
+            <FaCartPlus className="cart-icon"/>
+          </div>
+        </NavLink>
         <div className="sidebar">
           <div className="profile-wrap">
             <div className="close-icon-box">

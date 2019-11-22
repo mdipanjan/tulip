@@ -7,14 +7,14 @@ import './App.css';
 import MainLayout from '../src/layout/Main'
 import Login from './Components/Login/Login.js';
 import Homepage from './views/Homepage/Homepage.js';
-
+import Cart from './views/Cart/Cart';
 class App extends Component {
   render() {
     return (
       <Router>
-        <Route path="/login" component={Login}/>
+        {/* <Route path="/login" component={Login}/> */}
         <Route path="/" component={MainLayout} />
-        {/* <Redirect exact path="/" to={Homepage} /> */}
+        <Redirect exact path="/" to="/home" />
       </Router>
     )
   }

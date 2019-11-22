@@ -61,3 +61,10 @@ img{
     background: url('http://www.pngall.com/wp-content/uploads/2/Medicine-Pills-PNG-Photos.png');
     background-size: cover;
 }
+.medicine-img{
+    
+}
+.medicine-img img{
+    margin-bottom: 5rem;
+}
+   

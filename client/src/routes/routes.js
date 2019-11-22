@@ -7,6 +7,7 @@ import BookMedicine from '../views/BookMedicine/BookMedicine';
 import BloodFinderDetails from '../views/BloodFinder/BloodFinderDetails';
 import LabTests from '../views/LabTests/LabTests';
 import DoctorsList from '../Components/DoctorsList/DoctorsList';
+import DoctorCategories from '../Components/DoctorCategories/DoctorCategories';
 
 const routes = [
     {
@@ -44,6 +45,10 @@ const routes = [
     {
         path:"/lab-tests",
         component: LabTests 
+    },
+    {
+        path:"/doctors",
+        component: DoctorCategories 
     },
 
 ]

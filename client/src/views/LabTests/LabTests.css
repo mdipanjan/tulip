@@ -1,0 +1,29 @@
+.labtest-banner{
+    /* height: 15rem; */
+    position: relative;
+    width: 100%;
+    background-color: #D1FAFF;
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 hsla(0,0%,85.5%,.5);
+}
+.lab-test-header{
+    width: 90%;
+    font-size:1.7rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.presccription-upload{
+    padding: 0.5rem 0.8rem;
+
+}
+.labtest-img{
+    position: absolute;
+    top: 18%;
+    left: 70%;
+    width: 10rem;
+    height: 10rem;
+}
+.img-lab{
+    height: 100%;
+}

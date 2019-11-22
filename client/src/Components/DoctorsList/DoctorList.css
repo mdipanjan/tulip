@@ -1,0 +1,23 @@
+
+.ourservices{padding: 15px 0px 0px 0px; margin-top:5rem;}
+.ourservices h3{color: #000000; opacity: 0.3; margin: 0px 0px 8px 0px; font-size: 13px; font-weight: 700;}
+.ourservices .oservicesbox{float: left; width: 100%; position: relative; padding: 20px; background: #fff; -webkit-border-radius: 8px; border-radius: 8px; position: relative; margin: 0px 0px 15px 0px;}
+.ourservices .oservicesbox .oservicesboxinner{position: relative; display: block; max-width: 220px; z-index: 1;}
+.ourservices .oservicesbox h4{color: #000000; font-size: 16px; font-weight: 600; text-align: left; margin: 0px 0px 5px 0px;}
+.ourservices .oservicesbox p{font-size: 10px; color: #3A3A3A; font-weight: 500;}
+.ourservices .oservicesbox img{position: absolute; bottom: 0px; right: 0px; max-width: 100%; max-height: 100%; width:15rem;}
+.ourservices .oservicesbox .bookbtn{display: inline-block; text-decoration: none; background: #00508D; color: #fff; font-size: 10px; text-transform: uppercase; padding: 6px 20px; -webkit-border-radius: 50px; -webkit-border-radius: 50px;}
+
+.packagecontainer{padding: 15px 0px;}
+.packagecontainer h3{color: #b5b5b5; margin: 0px 0px 10px 0px; font-size: 13px; letter-spacing: 1px; font-weight: 700; position: relative; padding-right: 60px;}
+.packagecontainer .viewall{position: absolute; right: 0px; top: 0px; text-decoration: none; color: #3100FF; font-size: 12px; text-transform: uppercase; font-weight: 600;}
+.packagecontainer .packagebox{float: left; width: 100%; position: relative; height: 100%; padding: 15px 10px; background: #fff; text-align: center; -webkit-border-radius: 8px; border-radius: 8px; position: relative;}
+.packagecontainer .packagebox .price{display: block; text-align: center; color: #000000; font-size: 32px; line-height: 100%;}
+.packagecontainer .packagebox .price span{vertical-align: middle; font-size: 50%; padding-right: 5px;}
+.packagecontainer .packagebox .crossprice{display: block; text-align: center;}
+.packagecontainer .packagebox .crossprice .cprice{display: inline-block; color: #000000; opacity: 0.29; font-size: 10px; text-decoration: line-through;}
+.packagecontainer .packagebox .crossprice .discount{display: inline-block; color: #FBE200; opacity: 1; font-size: 10px;}
+.packagecontainer .packagebox ul{display: block; margin: 15px 0px 0px 0px; padding: 0px;}
+.packagecontainer .packagebox ul li{position: relative; display: block; list-style: none; text-align: left; font-size: 10px; letter-spacing: 0.32px; color: #000000; opacity: 0.6; padding: 0px 0px 0px 22px; margin: 0px 0px 10px 0px;}
+.packagecontainer .packagebox ul li:before{position: absolute; left: 0px; top: -1px; font-family: 'FontAwesome'; content: "\f00c"; width: 16px; height: 16px; text-align: center; line-height: 16px; font-size: 10px; background: #B7FB9A; color: #3CC800; -webkit-border-radius: 50%; border-radius: 50%;}
+.packagecontainer .packagebox .learnmore{margin: 10px 0px 0px 0px; display: inline-block; text-decoration: none; background: #00508D; color: #fff; font-size: 10px; text-transform: uppercase; padding: 6px 20px; -webkit-border-radius: 50px; -webkit-border-radius: 50px;}

@@ -4,11 +4,18 @@ import BloodFinder from '../views/BloodFinder/BloodFinder';
 import HealthRecords from '../views/HealthRecords/HealthRecords';
 import InsuranceList from '../Components/Insurances/InsuranceList.js'
 import BookMedicine from '../views/BookMedicine/BookMedicine';
-import BloodFinderDetails from '../views/BloodFinder/BloodFinderDetails'
+import BloodFinderDetails from '../views/BloodFinder/BloodFinderDetails';
+import LabTests from '../views/LabTests/LabTests';
+import DoctorsList from '../Components/DoctorsList/DoctorsList';
+
 const routes = [
     {
         path: "/home",
         component: Homepage,
+    },
+    {
+        path: "/doctorslist",
+        component: DoctorsList,
     },
     {
         path: "/other",
@@ -33,7 +40,12 @@ const routes = [
     {
         path:"/blood-details",
         component: BloodFinderDetails 
-    }
+    },
+    {
+        path:"/lab-tests",
+        component: LabTests 
+    },
+
 ]
 
 export default routes;

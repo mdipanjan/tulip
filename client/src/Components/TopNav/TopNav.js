@@ -75,7 +75,7 @@ class TopNav extends Component {
               </NavLink>
             </li>
             <li  onClick={this.closemenu} className="my-4 pl-2">
-              <NavLink className="link" to="/ome">
+              <NavLink className="link" to="/lab-tests">
                 <span>
                   <MdAssignment className="link-icon  mb-1 mr-3" />
                 </span>

@@ -3,7 +3,7 @@ import "./TopNav.css";
 import {
   MdSubject,
   MdClose,
-  MdAssignmentTurnedIn,
+  MdLocationOn,
   MdAssignment,
   MdShoppingCart,
   MdLock,
@@ -14,11 +14,12 @@ import {
 import { FiFilePlus } from "react-icons/fi";
 
 import { NavLink } from "react-router-dom";
-import { FaStore, FaUserCircle } from "react-icons/fa";
+import { FaStore, FaUserCircle, FaCartPlus, FaAngleDown } from "react-icons/fa";
 import { GoShield } from "react-icons/go";
 import { GiDrop } from "react-icons/gi";
 
 class TopNav extends Component {
+  
   expandMenu = e => {
     if (!e.target.classList.contains("open")) {
       let elem = document.querySelector(".sidebar");
@@ -33,11 +34,22 @@ class TopNav extends Component {
     document.querySelector('body').classList.remove('overlay');
   };
   render() {
+    
     return (
       <div className="top-navigation">
         <span onClick={this.expandMenu} className="menu-toggle ml-3 mt-3">
           <MdSubject className="toggle-icon mt-4" />
         </span>
+        <div className="location-box">
+          <span>
+            <MdLocationOn className="location-icon"/>
+            <FaAngleDown className="location-angle mt-2"/>
+          </span>
+          <span className="location-text">Kolkata</span>
+        </div>
+        <div className="cart-icon-box">
+          <FaCartPlus className="cart-icon"/>
+        </div>
         <div className="sidebar">
           <div className="profile-wrap">
             <div className="close-icon-box">
@@ -54,7 +66,7 @@ class TopNav extends Component {
           </div>
 
           <ul className="menu-options">
-            <li className="my-3 pl-2">
+            <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/home">
                 <span className="">
                   <FiFilePlus className="link-icon mb-1 mr-3" />
@@ -62,7 +74,7 @@ class TopNav extends Component {
                 <span className="link-text  ml-2">My appointments</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/ome">
                 <span>
                   <MdAssignment className="link-icon  mb-1 mr-3" />
@@ -70,7 +82,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Lab tests</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/home">
                 <span>
                   <MdShoppingCart className="link-icon mb-1 mr-3" />
@@ -78,7 +90,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">My orders</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/health-insurances">
                 <span>
                   <GoShield className="link-icon mb-1 mr-3" />
@@ -86,7 +98,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Insurance plus</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/health-records">
                 <span>
                   <MdLock className="link-icon mb-1 mr-3" />
@@ -94,7 +106,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Health record vault</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/blood-finder">
                 <span>
                   <GiDrop className="link-icon mb-1 mr-3" />
@@ -102,7 +114,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Blood finder</span>
               </NavLink>
             </li>
-            <li className="my-4 pl-2">
+            <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/book-medicines">
                 <span>
                   <FaStore className="link-icon mb-1 mr-3" />
@@ -111,7 +123,7 @@ class TopNav extends Component {
               </NavLink>
             </li>
             <hr  className="mr-4"/>
-            <li className="my-3 pl-2">
+            <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/home">
                 <span>
                   <MdHelp className="link-icon mb-1 mr-3" />
@@ -119,7 +131,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Help</span>
               </NavLink>
             </li>
-            <li className="my-3 pl-2">
+            <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/home">
                 <span>
                   <MdSettings className="link-icon mb-1 mr-3" />
@@ -127,7 +139,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">Settings</span>
               </NavLink>
             </li>
-            <li className="my-3 pl-2">
+            <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/home">
                 <span>
                   <MdInfo className="link-icon mb-1 mr-3" />

@@ -1,6 +1,6 @@
 .map{
     background-color: rosybrown;
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
 }
 .find-wrap{
@@ -19,4 +19,90 @@
     width: 14rem;
     border-radius: 1rem;
     border: none;
+}
+.blood-info-window{
+    border:none;
+    border-radius: 1rem 1rem 0 0;
+    background-color:#FFFFFF;
+    box-shadow: 0px -5px 18px #75757529;
+    /* height: 50vh; */
+    width: 100vw;
+    margin-top: -2rem;
+}
+.finder-nav{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width:30rem
+}
+.nav-item{
+    padding: 1rem 1.5rem;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border:none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.nav-tabs{
+    border: none;
+}
+.blood-infos{
+    margin: 1rem 2rem;
+    padding-top: 5rem !important;
+    height: 40rem;
+}
+.donor{
+    background-color: #FFFFFF;
+    height: 7rem;
+    display: flex;
+    padding-top: 2rem;
+}
+.donor-avtr{
+    /* background-color: teal; */
+    width: 20%;
+    position: relative;
+}
+.blood-group{
+    position: absolute;
+    top: -8%;
+    left: 85%;
+    height: 2rem;
+    width: 2rem;
+    background-color:#FF6565;
+    color:white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.donor-img{
+    height:7rem;
+    width: 7rem;
+    
+}
+.img-donor{
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.donor-details{
+    width: 20rem;
+    margin-left:2rem;
+}
+.donor-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.donor-address{
+    
+}
+.donor-distance{
+    background-color: #A1A1A1;
+    color: #FFFFFF;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.5rem;
+}
+.blood-group-type{
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
 }

@@ -7,8 +7,18 @@
     width: 90Vw;
 }
 .no-records{
+    height: 15rem;
+    width: 15rem;
+}
+.blank-record{
+    padding-top: 3.6rem !important;
+    font-size: 1.6rem;
+}
+.record-img{
+    height: 100%;
+    width: auto;
     position: absolute;
-    top: 100%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
 }

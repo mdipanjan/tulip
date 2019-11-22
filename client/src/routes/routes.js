@@ -4,6 +4,7 @@ import BloodFinder from '../views/BloodFinder/BloodFinder';
 import HealthRecords from '../views/HealthRecords/HealthRecords';
 import InsuranceList from '../Components/Insurances/InsuranceList.js'
 import BookMedicine from '../views/BookMedicine/BookMedicine';
+import BloodFinderDetails from '../views/BloodFinder/BloodFinderDetails'
 const routes = [
     {
         path: "/home",
@@ -28,6 +29,10 @@ const routes = [
     {
         path:"/book-medicines",
         component: BookMedicine
+    },
+    {
+        path:"/blood-details",
+        component: BloodFinderDetails 
     }
 ]
 

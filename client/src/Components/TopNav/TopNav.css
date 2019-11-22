@@ -2,16 +2,16 @@ body.overlay{
     overflow: hidden;
 }
 .top-navigation{
-    height: 7rem;
+    height: 6rem;
     width: 100vw;
-    background-color: rgb(16, 64, 153);
+    background-color: #00508D;
     position: fixed;
     z-index: 300 !important;
 }
 .menu-toggle{
     color: white;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 .sidebar{
     position: absolute;
@@ -62,7 +62,7 @@ body.overlay{
 }
 .link-text{
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: rgb(141, 140, 140);
 }
@@ -75,7 +75,7 @@ body.overlay{
 }
 .guest-label{
     padding-top: 0.5rem !important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: -2rem;
 }
@@ -83,3 +83,130 @@ body.overlay{
     padding: 0.5rem;
     background-color: rgb(250, 249, 249);
 }
+.location-box{
+    margin-left: 5rem;
+    margin-top: -1.9rem;
+    color: white;
+    letter-spacing: 0.08rem;
+    width: 8rem;
+}
+.location-text{
+    font-size: 1.2rem;
+    margin-top: 0.2rem !important;
+}
+.location-icon{
+    font-size: 1.6rem;
+    margin-right: 0.2rem;
+    margin-top: -0.3rem;
+}
+.location-angle{
+    float: right;
+}
+.cart-icon-box{
+    font-size: 1.7rem;
+    color: white;
+    float: right;
+}
+.cart-icon{
+    margin-right: 2rem;
+    margin-top: -4.3rem;
+}
+
+  
+  #custom-search .search-query {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: transparent;
+    font-size: 1.2em;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    margin-bottom: 0;
+  }
+  
+  /* Hide Text when unfocused plus fallbacks */
+  #custom-search .search-query::placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query::-webkit-input-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query::-moz-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query:-moz-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query:-ms-input-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  /* Style when Search is selected */
+  #custom-search .search-query:focus {
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: #5f586a;
+    width: 350px;
+    color: white;
+  }
+  
+  /* Style for placeholder value plus fallbacks */
+  #custom-search .search-query:focus::placeholder {
+    color: #cccccc;
+  }
+  
+  #custom-search .search-query:focus::-webkit-input-placeholder {
+    color: #cccccc;
+  }
+  
+  #custom-search .search-query:focus::-moz-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query:focus::-moz-placeholder {
+    color: transparent;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  #custom-search .search-query:focus:-ms-input-placeholder {
+    color: #cccccc;
+  }
+  
+  /* Style for Button */
+  #custom-search button {
+      border: 0;
+      background: none;
+      padding: 0;
+      width: 50px;
+      margin-top: -5px;
+      position: relative;
+      top: 2px;
+      left: -48px;
+      margin-bottom: 0;
+      border-radius: 3px;
+  }
+  
+  /* Font Awesome Icon Style */
+  #custom-search button i {
+      margin-left:-13px;
+      color:white;
+  }

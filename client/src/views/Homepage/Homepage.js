@@ -21,8 +21,7 @@ export default class Homepage extends Component {
           />
           <GoSearch className="search-icon" />
         </div>
-        
-        <div className="consultation-box mb-3">
+        <div className="consultation-box mb-3 pt-4">
           <label className="consult-label">Find doctors for consultation</label>
           <Slider />
           <div className="view-all mt-2 pb-2">
@@ -31,7 +30,7 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div className="mb-2 medicine-box">
+        <div className="mb-2 pt-4 medicine-box">
           <label className="medication-label">Subscribe your medication </label>
           <div className="mx-3 ">
             <div className="row">
@@ -61,7 +60,7 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div className="insurance-box mt-4 ">
+        <div className="insurance-box mt-4 pt-4">
           <label className="insurance-label">Featured Health Insurances</label>
           <InsuranceSlider />
           <div className="view-all mt-2 ">
@@ -80,7 +79,7 @@ export default class Homepage extends Component {
           </div>
         </div>
         {/* <hr className="mt-3 mb-3"/> */}
-        <div className="featured-box mt-4 pb-5">
+        <div className="featured-box mt-4 pb-5  pt-4">
           <label className="featured-label">Featured Products</label>
           <Featured />
           <div className="view-all mt-2">

@@ -6,7 +6,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(245, 245, 245, 0.932);
+  background-color: rgba(248, 247, 247, 0.932);
   /* font-weight: 400; */
-  letter-spacing: .1rem;
+  letter-spacing: .01rem;
 }

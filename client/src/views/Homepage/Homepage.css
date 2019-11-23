@@ -1,4 +1,16 @@
-
+.consultation-box{
+    background-color: #FFFF;
+    width: 100vw;
+    padding: 2rem 2rem;
+    margin-left: -2rem;
+    margin-top: 2rem;
+}
+.service-seperator{
+    margin-top:4rem ;
+}
+.ourservices-sec{
+    margin-top: 2rem !important;
+}
 .img-wrap{
     height: 100px;
 }

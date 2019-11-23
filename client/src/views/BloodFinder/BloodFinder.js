@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import './BloodFinder.css';
 import {Link} from 'react-router-dom';
 export default class BloodFinder extends Component {
-    componentDidMount(){
+    // componentDidMount(){
         
-        if(this.props.location.pathname == '/blood-finder'){
-            console.log('ok');
-            console.log(document.querySelector('.cart-icon-box').style.display = 'none')
-        }
-    }
+    //     if(this.props.location.pathname == '/blood-finder'){
+    //         console.log('ok');
+    //         console.log(document.querySelector('.cart-icon-box').style.display = 'none')
+    //     }
+    // }
     render() {
         
         return (

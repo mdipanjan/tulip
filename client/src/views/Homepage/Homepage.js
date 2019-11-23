@@ -65,7 +65,7 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div className="mb-2 pt-4 medicine-box">
+        {/* <div className="mb-2 pt-4 medicine-box">
           <label className="medication-label">Subscribe your medication </label>
           <div className="mx-3 ">
             <div className="row">
@@ -95,6 +95,39 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
+         */}
+        <hr className="service-seperator "/>
+        <div class="ourservices ourservices-sec">
+            <div class="maincontainer">
+              <div class="row">
+              <div class="col-12">
+                <div class="oservicesbox">
+                  <div class="oservicesboxinner">
+                    <h4>Health Insurance Consultation</h4>
+                    <p>
+                      Now distance is not a constrain to get health consultations, get doctors advise anytime anywhere.
+                    </p>
+                    <a class="bookbtn">Explore Now</a>
+                  </div>
+                  <img src="images/humberto-chavez.png" alt="Humberto Chavez" />
+                </div>
+                <div class="oservicesbox">
+                  <div class="oservicesboxinner">
+                    <h4>Book lab tests through whatsapp</h4>
+                    <p>
+                      Now buying medicine is as easy as texting someone in whatsapp, you can subscribe one time get benefits recurringly
+                    </p>
+                    <a class="bookbtn">See How</a>
+                  </div>
+                  <div className="medicine-img">
+                    <img src="images/medicine.png" alt="Humberto Chavez" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div className="insurance-box mt-4 pt-4">
           <label className="insurance-label">Featured Health Insurances</label>
           <InsuranceSlider />
@@ -111,6 +144,36 @@ export default class Homepage extends Component {
             <Link className="view-tests" to="/">
               View All
             </Link>
+          </div>
+        </div>
+        <div class="ourservices ourservices-sec">
+            <div class="maincontainer">
+              <div class="row">
+              <div class="col-12">
+                <div class="oservicesbox">
+                  <div class="oservicesboxinner">
+                    <h4>Health Record vault</h4>
+                    <p>
+                      Store all your health recors scurely on cloud, access anytime anywhere.
+                    </p>
+                    <a class="bookbtn">Explore Now</a>
+                  </div>
+                  <img src="images/humberto-chavez.png" alt="Humberto Chavez" />
+                </div>
+                <div class="oservicesbox">
+                  <div class="oservicesboxinner">
+                    <h4>Blood donor and bank finder</h4>
+                    <p>
+                      Now buying medicine is as easy as texting someone in whatsapp, you can subscribe one time get benefits recurringly
+                    </p>
+                    <a class="bookbtn">See How</a>
+                  </div>
+                  <div className="medicine-img">
+                    <img src="images/medicine.png" alt="Humberto Chavez" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         {/* <hr className="mt-3 mb-3"/> */}

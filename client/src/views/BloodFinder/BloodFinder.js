@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import './BloodFinder.css';
 import {Link} from 'react-router-dom';
+import { FaArrowLeft } from "react-icons/fa";
 export default class BloodFinder extends Component {
-    // componentDidMount(){
-        
-    //     if(this.props.location.pathname == '/blood-finder'){
-    //         console.log('ok');
-    //         console.log(document.querySelector('.cart-icon-box').style.display = 'none')
-    //     }
-    // }
+    
     render() {
         
         return (
-            <div className="">
+            <div className="search-location">
+                <div className="top-bar">
+                    <span  className="back">
+                        <FaArrowLeft className="loaction-bar-arrow"/>
+                    </span>
+                    <input className="location-bar-text" placeholder="Search location"/>
+                </div>
                 <div className="map">
 
                 </div>

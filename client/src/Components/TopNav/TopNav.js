@@ -40,13 +40,15 @@ class TopNav extends Component {
         <span onClick={this.expandMenu} className="menu-toggle ml-3 mt-3">
           <MdSubject className="toggle-icon mt-4" />
         </span>
-        <div className="location-box">
-          <span>
-            <MdLocationOn className="location-icon"/>
-            <FaAngleDown className="location-angle mt-2"/>
-          </span>
-          <span className="location-text">Kolkata</span>
-        </div>
+        <NavLink to="/search-location"> 
+          <div className="location-box">
+            <span>
+              <MdLocationOn className="location-icon"/>
+              <FaAngleDown className="location-angle mt-2"/>
+            </span>
+            <span className="location-text">Kolkata</span>
+          </div>
+        </NavLink>
         <NavLink to="/cart">
           <div className="cart-icon-box">
             <FaCartPlus className="cart-icon"/>

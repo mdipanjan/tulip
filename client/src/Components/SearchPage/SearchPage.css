@@ -1,0 +1,28 @@
+.search-location{
+    z-index: 400 !important;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF;
+    margin-top: -6rem;
+}
+.top-bar{
+    margin-top: 6rem;
+    height: 6rem;
+    width: 100vw;
+    background-color: #00508D;
+    position: fixed;
+    color: #FFF;
+}
+.location-bar-text{
+    width: 80%;
+    padding: 0.6rem 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    border-radius:2rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+.loaction-bar-arrow{
+    margin:0.5rem 1rem 1rem 1.5rem;
+    font-size: 1.7rem;
+}

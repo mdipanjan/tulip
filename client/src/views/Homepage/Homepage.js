@@ -21,7 +21,7 @@ export default class Homepage extends Component {
           />
           <GoSearch className="search-icon" />
         </div>
-        <div class="ourservices">
+        <div class="ourservices ourservices-fir">
           <div class="maincontainer">
             <div class="row">
               <div class="col-12">
@@ -132,7 +132,7 @@ export default class Homepage extends Component {
           <label className="insurance-label">Featured Health Insurances</label>
           <InsuranceSlider />
           <div className="view-all mt-2 ">
-            <Link className="view-insurance" to="/">
+            <Link className="view-insurance" to="/insurance-categories">
               View All
             </Link>
           </div>
@@ -146,7 +146,7 @@ export default class Homepage extends Component {
             </Link>
           </div>
         </div>
-        <div class="ourservices ourservices-sec">
+        <div class="ourservices ourservices-thi">
             <div class="maincontainer">
               <div class="row">
               <div class="col-12">

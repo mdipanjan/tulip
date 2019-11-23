@@ -5,6 +5,13 @@
     margin-left: -2rem;
     margin-top: 2rem;
 }
+.insurance-box{
+    background-color: #FFFF;
+    width: 100vw;
+    padding: 2rem 2rem;
+    margin-left: -2rem;
+    margin-bottom: 2rem;
+}
 .service-seperator{
     margin-top:4rem ;
 }

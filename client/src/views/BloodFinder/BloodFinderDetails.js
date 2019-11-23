@@ -1,12 +1,19 @@
 import React, { Component } from 'react'
 import './BloodFinder.css';
 import { MdPhone } from "react-icons/md";
+import { FaArrowLeft } from "react-icons/fa";
 
 
 export default class BloodFinder extends Component {
     render() {
         return (
-            <div className="">
+            <div className="search-location">
+                <div className="top-bar">
+                    <span  className="back">
+                        <FaArrowLeft className="loaction-bar-arrow"/>
+                    </span>
+                    <input className="location-bar-text" placeholder="Search location"/>
+                </div>
                 <div className="map">
 
                 </div>

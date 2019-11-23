@@ -8,6 +8,8 @@ import BloodFinderDetails from '../views/BloodFinder/BloodFinderDetails';
 import LabTests from '../views/LabTests/LabTests';
 import DoctorsList from '../Components/DoctorsList/DoctorsList';
 import DoctorCategories from '../Components/DoctorCategories/DoctorCategories';
+import InsuranceCategories from '../Components/InsuranceCategories/InsuranceCategories';
+import SearchPage from '../Components/SearchPage/SearchPage';
 
 const routes = [
     {
@@ -50,6 +52,15 @@ const routes = [
         path:"/doctors",
         component: DoctorCategories 
     },
+    {
+        path:"/insurance-categories",
+        component: InsuranceCategories 
+    },
+    {
+        path:"/search-location",
+        component: SearchPage 
+    },
+
 
 ]
 

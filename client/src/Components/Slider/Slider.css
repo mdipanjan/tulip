@@ -1,5 +1,9 @@
 .r_slider-box{
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.16);
+   
+}
+.r_slider-box .card{
+    border-radius: 0.5rem !important;
 }
 .card-text{
     font-size: 1.3rem;

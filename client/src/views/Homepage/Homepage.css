@@ -18,6 +18,18 @@
 .ourservices-sec{
     margin-top: 2rem !important;
 }
+.pharmacy-box{
+    background: transparent linear-gradient(180deg, #D0FFBB 0%, #B5FF95 100%) !important;
+}
+.labtest-box{
+    background: #D1FAFF !important;
+}
+.bloodfinder-box{
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e61b0, #ff996693);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e6196, #ff9966a2) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .img-wrap{
     height: 100px;
 }
@@ -34,7 +46,11 @@ img{
 }
 .view-all{
     position: relative;
+    margin-top: -2.5rem !important;
 }
+/* .consult-slider{
+    margin-top:3rem !important;
+} */
 .view-doctors,.view-tests,.view-featured,.view-consult,.view-insurance{
     position: absolute;
     left: 80%;
@@ -65,6 +81,7 @@ img{
 }
 .test-text{
     font-weight: 500;
+    font-size: 1.4rem;
 }
 .med-img{
     height: 80px;
@@ -86,4 +103,6 @@ img{
 .medicine-img img{
     margin-bottom: 5rem;
 }
-   
+.btn-outline-success{
+    border-radius: 2rem;
+}

@@ -71,6 +71,40 @@ class TopNav extends Component {
 
           <ul className="menu-options">
             <li  onClick={this.closemenu} className="my-3 pl-2">
+              <NavLink className="link" to="/doctors">
+                <span className="">
+                  <FiFilePlus className="link-icon mb-1 mr-3" />
+                </span>
+                <span className="link-text  ml-2">Doctors cosultation</span>
+              </NavLink>
+            </li>
+            <li  onClick={this.closemenu} className="my-3 pl-2">
+              <NavLink className="link" to="/lab-tests">
+                <span className="">
+                  <FiFilePlus className="link-icon mb-1 mr-3" />
+                </span>
+                <span className="link-text  ml-2">Book tests</span>
+              </NavLink>
+            </li>
+            <li  onClick={this.closemenu} className="my-3 pl-2">
+              <NavLink className="link" to="/home">
+                <span className="">
+                  <FiFilePlus className="link-icon mb-1 mr-3" />
+                </span>
+                <span className="link-text  ml-2">Buy medicines</span>
+              </NavLink>
+            </li>
+            <li  onClick={this.closemenu} className="my-4 pl-2">
+              <NavLink className="link" to="/insurance-categories">
+                <span>
+                  <GoShield className="link-icon mb-1 mr-3" />
+                </span>
+                <span className="link-text ml-2">Buy Insurance policies</span>
+              </NavLink>
+            </li>
+            <hr  className="mr-4"/>
+
+            <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/home">
                 <span className="">
                   <FiFilePlus className="link-icon mb-1 mr-3" />
@@ -94,14 +128,7 @@ class TopNav extends Component {
                 <span className="link-text ml-2">My orders</span>
               </NavLink>
             </li>
-            <li  onClick={this.closemenu} className="my-4 pl-2">
-              <NavLink className="link" to="/health-insurances">
-                <span>
-                  <GoShield className="link-icon mb-1 mr-3" />
-                </span>
-                <span className="link-text ml-2">Insurance plus</span>
-              </NavLink>
-            </li>
+
             <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/health-records">
                 <span>

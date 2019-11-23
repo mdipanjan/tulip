@@ -3,13 +3,18 @@ import './BloodFinder.css';
 import {Link} from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa";
 export default class BloodFinder extends Component {
-    
+
+    navigateBack = ()=>{
+        this.props.history.go(-1)
+        // console.log(history)
+        // history.go(-1);
+    }
     render() {
         
         return (
             <div className="search-location">
                 <div className="top-bar">
-                    <span  className="back">
+                    <span onClick={this.navigateBack} className="back">
                         <FaArrowLeft className="loaction-bar-arrow"/>
                     </span>
                     <input className="location-bar-text" placeholder="Search location"/>

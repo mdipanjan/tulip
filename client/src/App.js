@@ -18,7 +18,7 @@ class App extends Component {
       <Router history={customHistory}>
         {/* <Route path="/login" component={Login}/> */}
         <Route path="/" component={MainLayout} />
-        <Redirect exact path="/" to="/home" />
+        {/* <Redirect exact path="/" to="/home" /> */}
       </Router>
     )
   }

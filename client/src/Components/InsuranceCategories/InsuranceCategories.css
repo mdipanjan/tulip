@@ -25,10 +25,12 @@
     justify-content: space-between;
   }
   .insu-square {
+    text-decoration:none;
     width: 48%;
     height: 10rem;
     margin-bottom: 7%;
     background: white;
+    color: black;
     border-radius: 1rem;
     box-shadow: 0 2px 4px 0 hsla(0,0%,85.5%,.5);
     opacity: 1;

@@ -34,7 +34,7 @@ export default class DoctorsList extends Component {
                     </p>
                     <a class="bookbtn">Book</a>
                   </div>
-                  <img src="images/humberto-chavez.png" alt="Humberto Chavez" />
+                  <img class="sec-doc" src="http://pngimg.com/uploads/doctor/doctor_PNG16022.png" alt="Humberto Chavez" />
                 </div>
               </div>
             </div>

@@ -14,9 +14,9 @@ import {
 import { FiFilePlus } from "react-icons/fi";
 
 import { NavLink } from "react-router-dom";
-import { FaStore, FaUserCircle, FaCartPlus, FaAngleDown } from "react-icons/fa";
+import { FaStore, FaUserCircle, FaCartPlus, FaAngleDown, FaUserShield} from "react-icons/fa";
 import { GoShield } from "react-icons/go";
-import { GiDrop } from "react-icons/gi";
+import { GiDrop , GiHypodermicTest, GiPill} from "react-icons/gi";
 
 class TopNav extends Component {
   
@@ -81,15 +81,15 @@ class TopNav extends Component {
             <li  onClick={this.closemenu} className="my-3 pl-2">
               <NavLink className="link" to="/lab-tests">
                 <span className="">
-                  <FiFilePlus className="link-icon mb-1 mr-3" />
+                  <GiHypodermicTest className="link-icon mb-1 mr-3" />
                 </span>
                 <span className="link-text  ml-2">Book tests</span>
               </NavLink>
             </li>
             <li  onClick={this.closemenu} className="my-3 pl-2">
-              <NavLink className="link" to="/home">
+              <NavLink className="link" to="/book-medicines">
                 <span className="">
-                  <FiFilePlus className="link-icon mb-1 mr-3" />
+                  <GiPill className="link-icon mb-1 mr-3" />
                 </span>
                 <span className="link-text  ml-2">Buy medicines</span>
               </NavLink>
@@ -97,7 +97,7 @@ class TopNav extends Component {
             <li  onClick={this.closemenu} className="my-4 pl-2">
               <NavLink className="link" to="/insurance-categories">
                 <span>
-                  <GoShield className="link-icon mb-1 mr-3" />
+                  <FaUserShield className="link-icon mb-1 mr-3" />
                 </span>
                 <span className="link-text ml-2">Buy Insurance policies</span>
               </NavLink>

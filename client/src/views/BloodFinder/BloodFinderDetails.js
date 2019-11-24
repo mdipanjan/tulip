@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './BloodFinder.css';
 import { MdPhone } from "react-icons/md";
 import { FaArrowLeft } from "react-icons/fa";
-
+import Map from '../../Components/Map/Map'
 
 export default class BloodFinder extends Component {
     navigateBack = ()=>{
@@ -18,7 +18,7 @@ export default class BloodFinder extends Component {
                     <input className="location-bar-text" placeholder="Search location"/>
                 </div>
                 <div className="map">
-
+                    <Map/>
                 </div>
                 <div className="blood-info-window">
                     <div className="finder-nav">

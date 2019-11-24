@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MobileNav from '../Components/MobileNav/MobileNav';
-import { HashRouter as Router, Route, Link, Redirect,withRouter,Switch } from "react-router-dom";
+import { HashRouter  as Router, Route, Link, Redirect,withRouter,Switch } from "react-router-dom";
 import Homepage from '../views/Homepage/Homepage';
 import routes from '../routes/routes';
 import Other from '../views/Other/Other';

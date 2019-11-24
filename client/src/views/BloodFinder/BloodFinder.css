@@ -1,8 +1,13 @@
 .map{
     background-color: rosybrown;
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
 }
+.map1{
+    height: 90vh;
+    width: 100vw;
+}
+
 .find-wrap{
     position: absolute;
     top: 90%;
@@ -30,6 +35,8 @@
     margin-top: -2rem;
 }
 .finder-nav{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     position: absolute;
     left:50%;
     transform: translateX(-50%);
@@ -48,7 +55,7 @@
 }
 .blood-infos{
     margin: 1rem 2rem;
-    padding-top: 5rem !important;
+    padding-top: 7rem !important;
     height: 40rem;
 }
 .donor{
@@ -75,7 +82,7 @@
 .blood-group{
     position: absolute;
     top: -8%;
-    left: 85%;
+    left: 96%;
     height: 2rem;
     width: 2rem;
     background-color:#FF6565;
@@ -84,8 +91,8 @@
     display: inline-block;
 }
 .donor-img{
-    height:7rem;
-    width: 7rem;
+    height:6rem;
+    width: 6rem;
     
 }
 .img-donor{
@@ -95,7 +102,7 @@
 }
 .donor-details{
     width: 20rem;
-    margin-left:2rem;
+    margin-left:4rem;
 }
 .donor-title{
     font-size: 1.2rem;

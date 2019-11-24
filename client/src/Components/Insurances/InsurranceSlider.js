@@ -45,39 +45,30 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div className="insurance-slider mr-2">
             <div className="card p-3 mr-2  h-100 rounded-0">
-              <div>
-                <img src="https://cms-img.coverfox.com/aditya-birla-health-insurance.jpg"/>
+              <div className="insurance-slider-imgbox">
+                <img className="insurance-slider-img" src="https://cms-img.coverfox.com/aditya-birla-health-insurance.jpg"/>
               </div>
               <p className="insu-slider-text">Aditya Birla Activ Assure Diamond Plan</p>
-              <button type="button" class="btn btn-outline-success">CHECK</button>
+              <button type="button" className="btn btn-outline-success">CHECK</button>
             </div>
           </div>
-          <div className="insurance-slider mr-2">
-            <div className="card p-3 mr-2 h-100 rounded-0">
-              <div>
-                <img src="https://d3h6xrw705p37u.cloudfront.net/news/listing_image_300x220/religare-health-insurance-targets-breakeven-in-2018-1460985536.jpg"/>
-              </div>
-              <p className="insu-slider-text">Religare Care Health Insurance Plan</p>
-              <button type="button" class="btn btn-outline-success">CHECK</button>
-            </div>
-          </div>
-          <div className="insurance-slider mr-2">
-            <div className="card p-3 mr-2 h-100 rounded-0">
-                <div>
-                  <img src="http://www.bimabazaar.com/wp-content/uploads/2017/11/HDFC-ERGO.jpg"/>
+          <div className="mr-2">
+            <div className="card p-3 mr-2  ">
+                <div className="insurance-slider-imgbox">
+                  <img className="insurance-slider-img" src="https://www.wishpolicy.com/wp-content/uploads/2019/06/HDFC-Ergo-Health-Insurance.png"/>
                 </div>
                 <p className="insu-slider-text">Royal Sundaram Lifeline Supreme Plan</p>
-                <button type="button" class="btn btn-outline-success">CHECK</button>
+                <button type="button" className="btn btn-outline-success">CHECK</button>
             </div>
           </div>
-          <div className="insurance-slider mr-2">
+          <div className=" mr-2">
             <div className="card p-3 mr-2 h-100 rounded-0">
-                <div>
-                  <img src="http://206.189.142.56/wp-content/uploads/2018/05/max_may30.jpg"/>
+                <div className="insurance-slider-imgbox">
+                  <img className="insurance-slider-img" src="http://206.189.142.56/wp-content/uploads/2018/05/max_may30.jpg"/>
                 </div>
                 <p className="insu-slider-text">Max Bupa Health Companion Individual Plan</p>
                 
-                <button type="button" class="btn btn-outline-success">CHECK</button>
+                <button type="button" className="btn btn-outline-success">CHECK</button>
             </div>
           </div>
         </Slider>

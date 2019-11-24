@@ -4,17 +4,22 @@
   "orientation":"portrait-primary",
   "icons": [
     {
-      "src": "tulip.png",
+      "src": "/images/tulip.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "tulip.png",
+      "src": "/images/192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "tulip.png",
+      "src": "/images/384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

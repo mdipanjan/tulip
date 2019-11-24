@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a2d9eb248c8f146514660aa0abc5d22",
+    "revision": "89fd9051480ab3e24c6e6bb06d26ab69",
     "url": "/tulip/index.html"
   },
   {

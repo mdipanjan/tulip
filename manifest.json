@@ -1,6 +1,7 @@
 {
   "short_name": "Tulip",
   "name": "Your complete Healthcare solution",
+  "orientation":"portrait-primary",
   "icons": [
     {
       "src": "tulip.png",

@@ -4,14 +4,24 @@
   "description": "test bot for whatsapp business api",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server":"nodemon index.js"
+    "start": "nodemon index.js",
+    "remote": "ngrok http 8000"
   },
   "author": "mdipanjan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "ext-name": "^5.0.0",
+    "googleapis": "^45.0.0",
     "twilio": "^3.37.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
   }
 }

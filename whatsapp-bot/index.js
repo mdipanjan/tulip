@@ -1,23 +1,36 @@
-const bodyParser = require('body-parser');
+const  express = require('express');
+const  cors = require('cors');
+const twilio = require('twilio');
+const app = express();
 const config = require('./config');
-const express = require('express');
-const Twilio = require('twilio');
-const app = express()
-const { twilioPhoneNumber, twilioAccountSid, twilioAuthToken } = config;
+app.use(express.json());
 
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json());
+app.use(cors());
 
-// function getTwilioClient() {
-//     return twilioClient || new Twilio(twilioAccountSid, twilioAuthToken);
-// }
-  
+app.use(
+  express.urlencoded({
+    extended: false
+  })
+);
+async function googleSearch(req, res){
+  const client = new twilio(config.twilioAccountSid, config.twilioAuthToken);
+  const { MessagingResponse } = twilio.twiml;
+  const twiml = new MessagingResponse();
+  const q = req.body.Body;
+  try {
+    twiml.message(`helloworld`);
 
+    res.set('Content-Type', 'text/xml');
+
+    return res.status(200).send(twiml.toString());
+
+  } catch (error) {
+    return next(error);
+  }
+}
 app.get('/', (req,res)=>{
-    res.send('working');
-});
-
-const port = process.env.PORT || 8000;
-app.listen(port,()=>{
-    console.log('listening at port 8000');
+  console.log(config.twilioAccountSid)
+  res.send('ok')
 })
+app.post('/', googleSearch);
+app.listen(8000, () => console.log(`Magic...Magic On => 8000!`))

@@ -10,7 +10,7 @@
 
 
 
-.prescriptioncontainer{padding: 15px 0px; background: #fff;}
+.prescriptioncontainer{ background: #fff;}
 .prescriptioncontainer .prescriptionbox{background: #D1FAFF; padding: 15px; -webkit-border-radius: 6px; border-radius: 6px;}
 .prescriptioncontainer .prescriptionbox h3{color: #000000; font-size: 16px; font-weight: 700; margin: 0px 0px 10px 0px;}
 .prescriptioncontainer .prescriptionbox ul{display: block; margin: 8px 0px 0px 0px; padding: 0px;}
@@ -21,9 +21,9 @@
 .prescriptioncontainer .prescriptionbox .labimgright img{width: 84px; max-height: 100%;}
 .prescriptioncontainer .prescriptionbox .lablistbox .prebtn{margin: auto; margin-top: 15px; position: relative; display: table; text-decoration: none; overflow: hidden; background: #00508D; color: #fff; font-size: 10px; text-transform: uppercase; padding: 6px 20px; -webkit-border-radius: 50px; -webkit-border-radius: 50px;}
 .prescriptioncontainer .prescriptionbox .lablistbox .prebtn input[type="file"]{position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0;}
-.checkupcontainer{padding: 15px 0px;}
+.checkupcontainer{padding: 4rem 0px;}
 .checkupcontainer h3{color: #b5b5b5; margin: 0px 0px 10px 0px; font-size: 13px; letter-spacing: 1px; font-weight: 700; position: relative; padding-right: 60px;}
-.checkupcontainer .owl-stage-outer{padding: 5px 0px;}
+
 .checkupcontainer .viewall{position: absolute; right: 0px; top: 0px; text-decoration: none; color: #3100FF; font-size: 12px; text-transform: uppercase; font-weight: 600;}
 .checkupcontainer .owl-carousel .item{float: left; padding: 0rem 0.25rem;}
 .checkupcontainer .checklistbox{background: #ffffff; float: left; width: 100%; padding: 10px; position: relative; width: 160px; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.14);}
@@ -36,6 +36,9 @@
 .checkupcontainer .checklistbox .crossprice{display: block; text-align: left; color: rgba(59, 59, 59, 0.43); font-size: 10px; text-decoration: line-through;}
 .checkupcontainer .checklistbox .priceouterbox{display: block; padding-top: 10px;}
 .checkupcontainer .checklistbox .priceouterbox .priceleft{font-size: 13px; display: table-cell; width: 100%; letter-spacing: 0.05px; color: #000000; font-weight: 700;}
-.checkupcontainer .checklistbox .priceouterbox .addright{font-size: 13px; display: table-cell; white-space: nowrap; letter-spacing: 0.05px; color: #00508D; text-transform: uppercase; text-decoration: none; font-weight: 700;}
+.checkupcontainer .checklistbox .priceouterbox .addright{font-size: 13px; display: table-cell; white-space: nowrap; letter-spacing: 0.05px; color: #00508D; text-transform: uppercase; text-decoration: none; font-weight: 700;} 
 
 
+.prescriptioncontainer{
+    margin-top: 5rem;
+}

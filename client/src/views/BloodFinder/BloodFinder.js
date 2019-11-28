@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './BloodFinder.css';
 import {Link} from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa";
+import Map from '../../Components/Map/Map1'
 export default class BloodFinder extends Component {
 
     navigateBack = ()=>{
@@ -19,8 +20,8 @@ export default class BloodFinder extends Component {
                     </span>
                     <input className="location-bar-text" placeholder="Search location"/>
                 </div>
-                <div className="map">
-
+                <div className="map1">
+                    <Map/>
                 </div>
                 <div className="find-wrap">
                     <div className="finder-btns">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link, Redirect,withRouter,Switch } from "react-router-dom";
+import { HashRouter  as Router, Route, Link, Redirect,withRouter,Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../node_modules/jquery/dist/jquery.min.js';
@@ -17,8 +17,10 @@ class App extends Component {
     return (
       <Router history={customHistory}>
         {/* <Route path="/login" component={Login}/> */}
-        <Route path="/" component={MainLayout} />
-        {/* <Redirect exact path="/" to="/home" /> */}
+        <Switch>
+          <Redirect exact path="/" to="/home" />
+          <Route path="/" component={MainLayout} />
+        </Switch>
       </Router>
     )
   }

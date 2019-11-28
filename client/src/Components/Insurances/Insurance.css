@@ -1,11 +1,4 @@
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, rgba(255, 239, 54, 0.5), rgba(177, 255, 216, 0.5));
-  } */
+
   .filter{
     padding-top: 3rem;
   }
@@ -16,7 +9,6 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    /* height: 100vh; */
     overflow-y: scroll;
     background: rgb(247, 246, 246);
     border-radius: 20px;
@@ -55,8 +47,6 @@
     height: 30px;
   }
   body .wrap h2 {
-    font-size: 15px;
-    /* font-weight: 200; */
     margin-bottom: 5px;
     padding: 0 20px;
   }
@@ -132,7 +122,6 @@
     position: relative;
   }
   body .wrap .slider .slide img p {
-    /* font-weight: 300; */
   }
   body .wrap .rating {
     padding: 0 20px;
@@ -156,7 +145,6 @@
     padding-left: 7rem;
   }
   body .wrap .rating .cocktail .description h4 {
-    /* width: 100px; */
     margin-top: 5px;
   }
   body .wrap .rating .cocktail .description .stars {
@@ -181,7 +169,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* margin-left: 35px; */
   }
   body .wrap .rating .cocktail .like-price .like {
     font-size: 20px;
@@ -252,4 +239,13 @@
     font-size: 1.4rem;
     padding: 0.6rem;
     font-weight: 500;
+  }
+  
+  .insurance-slider-imgbox{
+    height: 10rem;
+    width: 100%;
+  }
+  .insurance-slider-img{
+    height: 100%;
+    /* width: auto; */
   }

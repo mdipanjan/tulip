@@ -1,0 +1,12 @@
+.cart-img{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-90%);
+    width:12rem;
+    height: 12rem;
+}
+.cart-img-icon{
+    height: 100%;;
+    width:auto;
+}

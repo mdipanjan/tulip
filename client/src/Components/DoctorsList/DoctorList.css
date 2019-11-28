@@ -21,3 +21,7 @@
 .packagecontainer .packagebox ul li{position: relative; display: block; list-style: none; text-align: left; font-size: 10px; letter-spacing: 0.32px; color: #000000; opacity: 0.6; padding: 0px 0px 0px 22px; margin: 0px 0px 10px 0px;}
 .packagecontainer .packagebox ul li:before{position: absolute; left: 0px; top: -1px; font-family: 'FontAwesome'; content: "\f00c"; width: 16px; height: 16px; text-align: center; line-height: 16px; font-size: 10px; background: #B7FB9A; color: #3CC800; -webkit-border-radius: 50%; border-radius: 50%;}
 .packagecontainer .packagebox .learnmore{margin: 10px 0px 0px 0px; display: inline-block; text-decoration: none; background: #00508D; color: #fff; font-size: 10px; text-transform: uppercase; padding: 6px 20px; -webkit-border-radius: 50px; -webkit-border-radius: 50px;}
+.sec-doc{
+    width:10rem !important; 
+    height: 70% !important;
+}

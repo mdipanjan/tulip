@@ -87,7 +87,7 @@ export default function InsuranceList() {
               <i class="fas fa-heart like"></i>
             </div>
           </div>
-          <div class="cocktail">
+          {/* <div class="cocktail">
             <div className="health-img">
               <img src="https://github.com/OlgaKoplik/CodePen/blob/master/cocktails/5.jpg?raw=true" />
             </div>
@@ -109,6 +109,7 @@ export default function InsuranceList() {
               <i class="fas fa-heart like"></i>
             </div>
           </div>
+           */}
           <div class="cocktail">
             <div className="health-img">
               <img src="https://i1.wp.com/www.greaterkashmir.com/wp-content/uploads/2018/12/2018_12largeimg211_dec_2018_005957690.jpg?resize=480%2C320&ssl=1" />

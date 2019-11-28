@@ -10,6 +10,7 @@ import DoctorsList from '../Components/DoctorsList/DoctorsList';
 import DoctorCategories from '../Components/DoctorCategories/DoctorCategories';
 import InsuranceCategories from '../Components/InsuranceCategories/InsuranceCategories';
 import SearchPage from '../Components/SearchPage/SearchPage';
+import Cart from '../views/Cart/Cart';
 
 const routes = [
     {
@@ -59,6 +60,10 @@ const routes = [
     {
         path:"/search-location",
         component: SearchPage 
+    },
+    {
+        path:"/cart",
+        component: Cart 
     },
 
 

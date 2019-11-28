@@ -4,7 +4,8 @@
   "description": "test bot for whatsapp business api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "server":"nodemon index.js",
+    "start": "node index.js",
     "remote": "ngrok http 8000"
   },
   "author": "mdipanjan",
@@ -16,6 +17,7 @@
     "express": "^4.17.1",
     "ext-name": "^5.0.0",
     "googleapis": "^45.0.0",
+    "pug": "^2.0.4",
     "twilio": "^3.37.1"
   },
   "devDependencies": {

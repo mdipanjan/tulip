@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "ext-name": "^5.0.0",
     "googleapis": "^45.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "twilio": "^3.37.1"
   },
   "devDependencies": {
